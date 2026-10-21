@@ -1,0 +1,5 @@
+EXPLAIN ANALYZE
+SELECT * FROM transaksi WHERE id_pasien = 1;
+
+EXPLAIN ANALYZE
+SELECT * FROM transaksi WHERE tanggal = CURRENT_DATE;
